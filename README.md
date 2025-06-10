@@ -188,6 +188,7 @@ autonomous-research-lab/
 ├── README.md                # Top-level project overview, install/setup instructions, usage guide
 └── LICENSE
 
+```
 
 
 Folder/File Explanations
