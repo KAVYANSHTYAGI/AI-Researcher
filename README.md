@@ -280,7 +280,7 @@ How This Structure Helps
     Hybrid-ready: Supports local + cloud agents (GPT-4o for idea generation) with minimal friction.
 
 
-
+```plaintext
 
 
 
@@ -294,3 +294,5 @@ How This Structure Helps
            |                      | Reviewer Agent   |<---| Experiment DB |
            |                      | (analyzes, logs) |    +---------------+
            +--------------------------------------------------+
+
+
