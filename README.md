@@ -108,6 +108,10 @@ Agents & Their Roles
 
 ---
 
+## 🗂️ Repo Structure
+
+```plaintext
+
 autonomous-research-lab/
 │
 ├── agents/                  
@@ -273,3 +277,19 @@ How This Structure Helps
     Enterprise-ready: Clean configs, modular code, and test coverage make hand-off and onboarding smooth.
 
     Hybrid-ready: Supports local + cloud agents (GPT-4o for idea generation) with minimal friction.
+
+
+
+
+
+
++-------------------+      +---------------------+      +------------------+
+|   Idea Agent      |----->|   Manager Agent     |----->|   Coder Agent    |
+| (generates ideas) |      | (approves, plans)   |      | (codes, executes)|
++-------------------+      +---------------------+      +------------------+
+           ^                            |                        |
+           |                            v                        v
+           |                      +------------------+    +---------------+
+           |                      | Reviewer Agent   |<---| Experiment DB |
+           |                      | (analyzes, logs) |    +---------------+
+           +--------------------------------------------------+
